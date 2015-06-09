@@ -31,10 +31,10 @@
       (Table
         #js {:width        600
              :height       400
-             :rowHeight    30
+             :rowHeight    50
              :rowGetter    #(get table %)
              :rowsCount    (count table)
-             :headerHeight 30}
+             :headerHeight 50}
         (Column
           #js {:label "Number" :dataKey 0 :cellDataGetter getter :width 100})
         (Column
